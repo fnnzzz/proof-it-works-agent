@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__azure-devops__wit_get_work_item",
+      "Bash(python3:*)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(az *)",
+      "Bash(curl *)",
+      "Bash(security *)",
+      "Bash(mkdir *)",
+      "Bash(echo *)",
+      "Bash(date *)",
+      "Bash(claude *)",
+      "Bash(cd *)",
+      "Bash(mcp__*)",
+      "mcp__azure-devops__wit_get_work_items_batch_by_ids",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_console_messages",
+      "Bash(test:*)",
+      "mcp__playwright__browser_network_requests"
+    ],
+    "deny": []
+  },
+  "enabledMcpjsonServers": ["playwright", "azure-devops"]
+}
