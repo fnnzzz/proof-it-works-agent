@@ -76,7 +76,7 @@ The magic: the agent pulls the title, description, acceptance criteria, and **al
 No integrations, no prerequisites. Just describe what you want to test:
 
 ```
-proof it works — check that the BTC/USD chart loads correctly on the asset page and the 1D timeframe switch works
+proof it works — check that the BTC/USD chart loads correctly on the asset page and the WEEK timeframe switch works
 ```
 
 Works anywhere, zero dependencies. You describe the feature, the agent figures out the test cases and runs them.
