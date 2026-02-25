@@ -175,7 +175,7 @@ Wait for the user's input, then build the plan from it.
 
 Each case:
 
-- **ID**: `TC-{n}`
+- **ID**: Use the real Azure DevOps work item ID when the test case comes from a "Tested By" link (e.g. `TC-74123`). Only use sequential numbers (`TC-1`, `TC-2`, …) for test cases that were added manually or derived from free text with no linked item.
 - **Name**: short label
 - **Steps**: numbered actions
 - **Expected result**: what a PASS looks like
@@ -184,7 +184,7 @@ Each case:
 Example:
 
 ```
-TC-1: Create limit BUY order and verify it appears in Open Orders
+TC-74123: Create limit BUY order and verify it appears in Open Orders
   Steps:
     1. Navigate to Spot trading page
     2. Select BTC/USD pair
