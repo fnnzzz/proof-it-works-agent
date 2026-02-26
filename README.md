@@ -12,7 +12,15 @@ A developer finishes a task and wants to show it's working before handoff. QA ne
 
 This is a fully manual, repetitive process. And it happens every sprint, on every task, across every team.
 
-**Proof It Works** eliminates that bottleneck. You give it a task, it opens Chrome, navigates the staging app, runs the test cases, and hands you a report with screenshots — fully autonomously.
+There's also a subtler cost hiding in every sprint — the dev ↔ QA loop:
+
+> 👨‍💻 PR submitted → 🚀 deployed to staging → 🧪 QA goes in → ❌ missing button → 🔄 ticket returned → 👨‍💻 fix → 🚀 redeploy → 🧪 QA again → ...
+
+Each cycle costs hours. And it's often something small that could've been caught in 2 minutes.
+
+**Proof It Works** acts as a pre-validation layer — catching the obvious misses before the ticket ever reaches QA. Fewer round-trips, faster feature delivery. 🏓
+
+You give it a task, it opens Chrome, navigates the staging app, runs the test cases, and hands you a report with screenshots — fully autonomously.
 
 This is what we mean by less manual work, done by AI. 🤖
 
