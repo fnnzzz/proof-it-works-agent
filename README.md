@@ -181,4 +181,4 @@ Already configured. When you start the agent, Claude will ask if you want to use
 
 ## 📚 Examples
 
-See the [`examples/`](./examples/) folder for ready-to-paste task descriptions covering common flows.
+See the [`examples/`](./.claude/agents/proof-it-works/examples/) folder for ready-to-paste task descriptions covering common flows.
